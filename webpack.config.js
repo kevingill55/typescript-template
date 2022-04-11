@@ -32,6 +32,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+    open: true,
   },
   devtool: prod ? undefined : 'source-map',
   plugins: [
